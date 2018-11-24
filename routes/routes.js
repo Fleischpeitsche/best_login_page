@@ -50,7 +50,6 @@ router.post('/do-logout', (req, res, next) => {
 
 router.get('/home', (req, res, next) => {
     const isLoggedIn = req.session.authentication && req.session.authentication.isLoggedIn;
-    console.log('/home, isLoggedIn: ' + isLoggedIn);
 
     if (isLoggedIn) {
         const username = req.session.authentication.user.username;
