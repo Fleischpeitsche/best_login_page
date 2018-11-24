@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+main {
+    margin: 1rem;
+}
+
+section {
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0 1rem;
+    margin: 0;
+    text-decoration: none;
+    background: white;
+    transition: background .3s, color .3s;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:active {
+    background: black;
+    color: white;
+    transition: background .3s, color .3s;
+}
+
+.errormessage {
+    color: red;
+}

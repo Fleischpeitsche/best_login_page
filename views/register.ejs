@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Register</h1>
+            <form action='/do-register' method='post'>
+                <section>
+                    <input type='text' name='username' />
+                </section>
+                <section>
+                    <input type='password' name='password' />
+                </section>
+                <section>
+                    <button type='submit'>register</button>
+                </section>
+            </form>
+            <% include errormessage %>              
+        </main>
+    </body>
+</html>
